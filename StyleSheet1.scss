@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html >
+<html lang="es" >
+<head >
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title > Restaurante XYZ - Reservaciones</title >
+<link rel="stylesheet" href="styles.css" >
+</head >
+<body >
+<header >
+<h1 > Restaurante XYZ</h1 >
+</header >
+
+<section >
+<h2 > Reservaciones</h2 >
+<form action="#" method="post" >
+<label for="nombre" > Nombre:</label >
+<input type="text" id="nombre" name="nombre" required >
+
+<label for="telefono" > Teléfono:</label >
+<input type="tel" id="telefono" name="telefono" required >
+
+<label for="fecha" > Fecha:</label >
+<input type="date" id="fecha" name="fecha" required >
+
+<label for="hora" > Hora:</label >
+<input type="time" id="hora" name="hora" required >
+
+<label for="personas" > Número de personas:</label >
+<select id="personas" name="personas" required >
+<option value="1" > 1 persona</option >
+<option value="2" > 2 personas</option >
+<option value="3" > 3 personas</option >
+<!-- Agrega más opciones según sea necesario -->
+</select >
+
+<button type="submit" > Reservar</button >
+</form >
+</section >
+</body >
+</html >
