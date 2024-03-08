@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/foto-gratis/camarero-feliz-sirviendo-comida-grupo-amigos-alegres-pub_637285-12525.jpg');
+    background-size: contain; /* Cambiado a 'contain' para mantener la relación de aspecto original */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+header {
+    background-color: hsl(29, 82%, 35%);
+    color: #df9814;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Cambiado el color de fondo de los elementos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #555; /* Cambiado el color del texto para que sea más oscuro */
+}
+
+button {
+    background-color: hsl(29, 82%, 20%); /* Ajustado el color de fondo del botón */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(29, 82%, 30%); /* Ajustado el color de fondo del botón al pasar el mouse */
+}
